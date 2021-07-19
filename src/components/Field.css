@@ -1,0 +1,52 @@
+.field-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.markup-num {
+    display: flex;
+    flex-basis: 10%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.markup-num li {
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 30%;
+}
+
+.markup-char {
+    flex-basis: 95%;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.markup-char li {
+    flex: 1;
+    text-align: center;
+}
+
+.field-ul {
+    flex-basis: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.connecting-link {
+    color: #3f51b5;
+}
+
+.rotate180 {
+	transform: rotate(180deg);
+}
+

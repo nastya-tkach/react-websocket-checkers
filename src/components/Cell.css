@@ -1,0 +1,43 @@
+.field-li {
+    list-style-type: none;
+    box-sizing: border-box;
+    flex-basis: 12.5%;
+    position: relative;
+}
+
+.field-li-in {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+
+.white-cell {
+    background-color: #fbffd5;
+}
+
+.black-cell {
+    background-color: #767766;
+}
+
+.field-img {
+    position: absolute;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    cursor: pointer;
+}
+
+.cell-highlight::before {
+    content: '';
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: -5px;
+    margin-top: -5px;
+    border-radius: 50%;
+    border: 2px solid #666;
+    position: absolute;
+    box-sizing: border-box;
+}
